@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"frp/models/consts"
-	"frp/utils/conn"
-	"frp/utils/log"
+	"frp/src/frp/models/consts"
+	"frp/src/frp/utils/conn"
+	"frp/src/frp/utils/log"
 )
 
 type ProxyServer struct {

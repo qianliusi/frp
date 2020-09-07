@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"time"
 
-	"frp/models/consts"
-	"frp/models/msg"
-	"frp/utils/conn"
-	"frp/utils/log"
-	"frp/utils/pcrypto"
+	"frp/src/frp/models/consts"
+	"frp/src/frp/models/msg"
+	"frp/src/frp/utils/conn"
+	"frp/src/frp/utils/log"
+	"frp/src/frp/utils/pcrypto"
 )
 
 type ProxyClient struct {

@@ -20,16 +20,16 @@ import (
 	"strconv"
 	"strings"
 
-	docopt "github.com/docopt/docopt-go"
+	"github.com/docopt/docopt-go"
 
-	"frp/models/server"
-	"frp/utils/conn"
-	"frp/utils/log"
-	"frp/utils/version"
+	"frp/src/frp/models/server"
+	"frp/src/frp/utils/conn"
+	"frp/src/frp/utils/log"
+	"frp/src/frp/utils/version"
 )
 
 var (
-	configFile string = "./frps.ini"
+	configFile string = "./conf/frps.ini"
 )
 
 var usage string = `frps is the server of frp
