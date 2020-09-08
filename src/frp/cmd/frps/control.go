@@ -20,12 +20,12 @@ import (
 	"io"
 	"time"
 
-	"frp/models/consts"
-	"frp/models/msg"
-	"frp/models/server"
-	"frp/utils/conn"
-	"frp/utils/log"
-	"frp/utils/pcrypto"
+	"frp/src/frp/models/consts"
+	"frp/src/frp/models/msg"
+	"frp/src/frp/models/server"
+	"frp/src/frp/utils/conn"
+	"frp/src/frp/utils/log"
+	"frp/src/frp/utils/pcrypto"
 )
 
 func ProcessControlConn(l *conn.Listener) {

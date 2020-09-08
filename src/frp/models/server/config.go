@@ -19,9 +19,9 @@ import (
 	"strconv"
 	"strings"
 
-	ini "github.com/vaughan0/go-ini"
+	"github.com/vaughan0/go-ini"
 
-	"frp/utils/vhost"
+	"frp/src/frp/utils/vhost"
 )
 
 // common config

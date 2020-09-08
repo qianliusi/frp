@@ -21,15 +21,15 @@ import (
 	"strings"
 	"sync"
 
-	docopt "github.com/docopt/docopt-go"
+	"github.com/docopt/docopt-go"
 
-	"frp/models/client"
-	"frp/utils/log"
-	"frp/utils/version"
+	"frp/src/frp/models/client"
+	"frp/src/frp/utils/log"
+	"frp/src/frp/utils/version"
 )
 
 var (
-	configFile string = "./frpc.ini"
+	configFile string = "./conf/frpc.ini"
 )
 
 var usage string = `frpc is the client of frp
