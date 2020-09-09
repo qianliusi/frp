@@ -24,14 +24,14 @@ import (
 	"strings"
 	"time"
 
-	docopt "github.com/docopt/docopt-go"
+	"github.com/docopt/docopt-go"
 
-	"github.com/fatedier/frp/src/assets"
-	"github.com/fatedier/frp/src/models/server"
-	"github.com/fatedier/frp/src/utils/conn"
-	"github.com/fatedier/frp/src/utils/log"
-	"github.com/fatedier/frp/src/utils/version"
-	"github.com/fatedier/frp/src/utils/vhost"
+	"frp/src/assets"
+	"frp/src/models/server"
+	"frp/src/utils/conn"
+	"frp/src/utils/log"
+	"frp/src/utils/version"
+	"frp/src/utils/vhost"
 )
 
 var usage string = `frps is the server of frp

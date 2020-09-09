@@ -20,17 +20,17 @@ import (
 	"strings"
 	"sync"
 
-	ini "github.com/vaughan0/go-ini"
+	"github.com/vaughan0/go-ini"
 
-	"github.com/fatedier/frp/src/models/consts"
-	"github.com/fatedier/frp/src/models/metric"
-	"github.com/fatedier/frp/src/utils/log"
-	"github.com/fatedier/frp/src/utils/vhost"
+	"frp/src/models/consts"
+	"frp/src/models/metric"
+	"frp/src/utils/log"
+	"frp/src/utils/vhost"
 )
 
 // common config
 var (
-	ConfigFile     string = "./frps.ini"
+	ConfigFile     string = "./conf/frps.ini"
 	BindAddr       string = "0.0.0.0"
 	BindPort       int64  = 7000
 	VhostHttpPort  int64  = 0 // if VhostHttpPort equals 0, don't listen a public port for http protocol

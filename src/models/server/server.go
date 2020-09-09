@@ -19,12 +19,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/src/models/config"
-	"github.com/fatedier/frp/src/models/consts"
-	"github.com/fatedier/frp/src/models/metric"
-	"github.com/fatedier/frp/src/models/msg"
-	"github.com/fatedier/frp/src/utils/conn"
-	"github.com/fatedier/frp/src/utils/log"
+	"frp/src/models/config"
+	"frp/src/models/consts"
+	"frp/src/models/metric"
+	"frp/src/models/msg"
+	"frp/src/utils/conn"
+	"frp/src/utils/log"
 )
 
 type Listener interface {

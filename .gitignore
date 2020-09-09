@@ -30,3 +30,5 @@ test/bin/
 
 # Cache
 *.swp
+.idea
+vendor

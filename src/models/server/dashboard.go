@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/fatedier/frp/src/assets"
+	"frp/src/assets"
 )
 
 var (

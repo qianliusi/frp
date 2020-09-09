@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/src/utils/conn"
+	"frp/src/utils/conn"
 )
 
 type muxFunc func(*conn.Conn) (net.Conn, string, error)

@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/fatedier/frp/src/models/config"
-	"github.com/fatedier/frp/src/models/consts"
-	"github.com/fatedier/frp/src/models/msg"
-	"github.com/fatedier/frp/src/utils/conn"
-	"github.com/fatedier/frp/src/utils/log"
-	"github.com/fatedier/frp/src/utils/pcrypto"
+	"frp/src/models/config"
+	"frp/src/models/consts"
+	"frp/src/models/msg"
+	"frp/src/utils/conn"
+	"frp/src/utils/log"
+	"frp/src/utils/pcrypto"
 )
 
 type ProxyClient struct {

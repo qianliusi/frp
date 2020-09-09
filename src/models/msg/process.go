@@ -21,12 +21,12 @@ import (
 	"io"
 	"sync"
 
-	"github.com/fatedier/frp/src/models/config"
-	"github.com/fatedier/frp/src/models/metric"
-	"github.com/fatedier/frp/src/utils/conn"
-	"github.com/fatedier/frp/src/utils/log"
-	"github.com/fatedier/frp/src/utils/pcrypto"
-	"github.com/fatedier/frp/src/utils/pool"
+	"frp/src/models/config"
+	"frp/src/models/metric"
+	"frp/src/utils/conn"
+	"frp/src/utils/log"
+	"frp/src/utils/pcrypto"
+	"frp/src/utils/pool"
 )
 
 // deprecated
