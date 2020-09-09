@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"frp/utils/log"
-	"frp/utils/pcrypto"
+	"frp/src/frp/utils/log"
+	"frp/src/frp/utils/pcrypto"
 )
 
 type Listener struct {

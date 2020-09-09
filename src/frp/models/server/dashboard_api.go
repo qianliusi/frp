@@ -20,7 +20,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"frp/utils/log"
+	"frp/src/frp/utils/log"
 )
 
 type GeneralResponse struct {

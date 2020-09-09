@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"frp/utils/conn"
+	"frp/src/frp/utils/conn"
 )
 
 type muxFunc func(*conn.Conn) (net.Conn, string, error)
