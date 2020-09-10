@@ -17,7 +17,7 @@ package net
 import (
 	"net"
 
-	"github.com/fatedier/frp/utils/log"
+	"frp/utils/log"
 )
 
 // Conn is the interface of connections used in frp.

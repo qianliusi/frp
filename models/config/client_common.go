@@ -44,7 +44,7 @@ type ClientCommonConf struct {
 
 func GetDeaultClientCommonConf() *ClientCommonConf {
 	return &ClientCommonConf{
-		ConfigFile:        "./frpc.ini",
+		ConfigFile:        "./conf/frpc.ini",
 		ServerAddr:        "0.0.0.0",
 		ServerPort:        7000,
 		HttpProxy:         "",

@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fatedier/frp/utils/util"
+	"frp/utils/util"
 	ini "github.com/vaughan0/go-ini"
 )
 
@@ -61,7 +61,7 @@ type ServerCommonConf struct {
 
 func GetDefaultServerCommonConf() *ServerCommonConf {
 	return &ServerCommonConf{
-		ConfigFile:       "./frps.ini",
+		ConfigFile:       "./conf/frps.ini",
 		BindAddr:         "0.0.0.0",
 		BindPort:         7000,
 		VhostHttpPort:    0,

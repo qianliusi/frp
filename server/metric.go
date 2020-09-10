@@ -17,8 +17,8 @@ package server
 import (
 	"sync"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/utils/metric"
+	"frp/models/config"
+	"frp/utils/metric"
 )
 
 const (

@@ -22,14 +22,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/models/proto/tcp"
-	"github.com/fatedier/frp/models/proto/udp"
-	"github.com/fatedier/frp/utils/errors"
-	"github.com/fatedier/frp/utils/log"
-	frpNet "github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/vhost"
+	"frp/models/config"
+	"frp/models/msg"
+	"frp/models/proto/tcp"
+	"frp/models/proto/udp"
+	"frp/utils/errors"
+	"frp/utils/log"
+	frpNet "frp/utils/net"
+	"frp/utils/vhost"
 )
 
 type Proxy interface {

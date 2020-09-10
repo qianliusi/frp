@@ -18,9 +18,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/consts"
-	"github.com/fatedier/frp/utils/log"
+	"frp/models/config"
+	"frp/models/consts"
+	"frp/utils/log"
 
 	"github.com/julienschmidt/httprouter"
 )

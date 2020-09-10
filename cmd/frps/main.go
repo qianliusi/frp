@@ -20,13 +20,13 @@ import (
 	"strconv"
 	"strings"
 
-	docopt "github.com/docopt/docopt-go"
-	ini "github.com/vaughan0/go-ini"
+	"github.com/docopt/docopt-go"
+	"github.com/vaughan0/go-ini"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/server"
-	"github.com/fatedier/frp/utils/log"
-	"github.com/fatedier/frp/utils/version"
+	"frp/models/config"
+	"frp/server"
+	"frp/utils/log"
+	"frp/utils/version"
 )
 
 var usage string = `frps is the server of frp
@@ -47,7 +47,7 @@ Options:
 
 func main() {
 	var err error
-	confFile := "./frps.ini"
+	confFile := "./conf/frps.ini"
 	// the configures parsed from file will be replaced by those from command line if exist
 	args, err := docopt.Parse(usage, nil, true, version.Full(), false)
 

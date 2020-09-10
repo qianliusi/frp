@@ -20,8 +20,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/fatedier/frp/assets"
-	"github.com/fatedier/frp/models/config"
+	"frp/assets"
+	"frp/models/config"
 
 	"github.com/julienschmidt/httprouter"
 )

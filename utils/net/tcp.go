@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/fatedier/frp/utils/log"
+	"frp/utils/log"
 )
 
 type TcpListener struct {

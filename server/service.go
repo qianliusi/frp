@@ -16,16 +16,16 @@ package server
 
 import (
 	"fmt"
+	frpNet "frp/utils/net"
 	"time"
 
-	"github.com/fatedier/frp/assets"
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/utils/log"
-	frpNet "github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/util"
-	"github.com/fatedier/frp/utils/version"
-	"github.com/fatedier/frp/utils/vhost"
+	"frp/assets"
+	"frp/models/config"
+	"frp/models/msg"
+	"frp/utils/log"
+	"frp/utils/util"
+	"frp/utils/version"
+	"frp/utils/vhost"
 
 	"github.com/xtaci/smux"
 )

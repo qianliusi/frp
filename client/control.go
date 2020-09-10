@@ -21,13 +21,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/utils/crypto"
-	"github.com/fatedier/frp/utils/log"
-	"github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/util"
-	"github.com/fatedier/frp/utils/version"
+	"frp/models/config"
+	"frp/models/msg"
+	"frp/utils/crypto"
+	"frp/utils/log"
+	"frp/utils/net"
+	"frp/utils/util"
+	"frp/utils/version"
 	"github.com/xtaci/smux"
 )
 
